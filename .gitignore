@@ -12,6 +12,7 @@ dist
 dist-ssr
 dist-asar
 *.local
+.git/*
 
 # Editor directories and files
 .vscode/*
