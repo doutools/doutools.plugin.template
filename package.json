@@ -1,0 +1,24 @@
+{
+    "name": "doutools.plugin.template",
+    "private": true,
+    "version": "3.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview",
+        "build:asar": "vite build && asar pack dist dist-asar/%npm_package_name%.asar"
+    },
+    "dependencies": {
+        "vue": "^3.2.37"
+    },
+    "devDependencies": {
+        "@ant-design/icons-vue": "^6.1.0",
+        "@vitejs/plugin-vue": "^3.1.0",
+        "ant-design-vue": "^3.2.12",
+        "less": "^4.1.3",
+        "less-loader": "^11.0.0",
+        "vite": "^3.1.0",
+        "vite-plugin-optimizer": "^1.4.0"
+    }
+}
